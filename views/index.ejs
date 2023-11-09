@@ -1,0 +1,28 @@
+<%-include ("partials/header.ejs") %>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <header>
+        <!--NAVIGATION BAR-->
+    <img class="calender-pic" src="images/calendar.png">
+  </header>
+  
+
+
+
+<!--END OF NAVIGATION BAR-->
+<h1> TO DO LIST WEBPAGE</h1> 
+
+<div id="box">
+
+  <div class="item">
+     
+                       <% tasks.forEach(task => { %> 
+                    <p> <%=task %> </p>
+                       <% }); %>  
+                      </div>
+                      <form action="/submit" method="post">
+                        <input type="text" name="task" placeholder="New Item" required/>
+                      <button type="submit" >+</button>
+                      </form>
+                    </div>
+
+<%-include("partials/footer.ejs")%>

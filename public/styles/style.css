@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #f1f1f1;
+
+}
+
+h1{
+  color:#2c3e50 ;
+  font-family:'Arvo' , serif;
+
+}
+
+p{
+  margin: 0;
+  line-height: 2;
+  font-size: 1rem;
+  font-weight:400 ;
+color: rgb(6, 1, 1);}
+
+
+  /*navbrand*/
+header{ max-width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #2c3e50 !important;
+
+}
+
+.calender-pic{
+  height: 100px;
+  width: 100px;
+  box-shadow: #f1f1f1;
+}
+
+
+/* BODY CONTENT*/
+
+#box{
+  max-width: 400px;
+  margin: 50px auto;
+
+}
+
+
+.item {
+  min-height: 70px;
+  align-items: center;
+  border-bottom: 1px solid #F1F1F1;
+}
+
+  input[type="text"] {
+    text-align: center;
+    height: 40px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    
+  }
+
+  form {
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button:hover{
+    background-color: rgb(157, 89, 89);
+  }
+button {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #2c3e50;
+  color: #fff;
+  font-size: 30px;
+  border-width: 0;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+  left: 55px;
+
+}
+  
+
+.p-footer{
+  color: #f1f1f1;
+  font-weight: 300;
+  line-height: 1;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{ 
+
+  max-width: 100%;
+  padding-top: 40px;
+  background-color: #2c3e50;
+  position: relative;
+  top: 20vh;
+  height: 10vh;
+ 
+}
